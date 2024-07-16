@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://krybosmb1scs"]
+
+[ext_resource type="Script" path="res://scripts/gigel.gd" id="1_qjvpe"]
+[ext_resource type="Texture2D" uid="uid://clbmnsqfpgytt" path="res://assets/Gigel.png" id="2_c7cty"]
+
+[node name="Gigel" type="Node2D"]
+script = ExtResource("1_qjvpe")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_c7cty")
